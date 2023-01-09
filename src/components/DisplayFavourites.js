@@ -20,7 +20,7 @@ const DisplayFavourites = ({data}) => {
  return(  
     <div className="column1">
         <h2 style={{fontSize:"300%"}}><span style={{color:"#ebfae9", fontWeight: "bold"}}>Favourites</span> </h2>
-        <button className="sortbutton" onClick={sortArray}>{sortArr ? "Sort ascending": "Sort descending"}
+        <button className="sortbutton" onClick={sortArray}>{sortArr ? "Sort alphabetically": "Sort alphabetically backwards"}
         </button>
         {data.map((o) => {
         return(
