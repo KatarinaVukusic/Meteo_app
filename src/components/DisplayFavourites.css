@@ -1,0 +1,28 @@
+.sidebar {
+    float: left;
+    background-color: #71cccc;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 25%;
+    height: 100%;
+  }
+
+  .sortbutton{
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #289aec;
+    background-color: #ebfae9;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 3px #999;
+  }
+
+  .favourite{
+    font-size: 30px;
+  }

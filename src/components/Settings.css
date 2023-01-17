@@ -1,0 +1,56 @@
+row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .row {
+    display: flex;
+  }
+
+.temperature {
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -100px;
+  }
+  input[type="radio"] {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    justify-content: space-between;
+  
+  }
+  .wind {
+    position: fixed;
+    top: 35%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -100px;
+  }
+  .percipitation {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -100px;
+  }
+  
+  select{
+    width: 100%;
+  }
+  .pastdays {
+    position: fixed;
+    top: 70%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -100px;
+  }
+  .timezone {
+    position: fixed;
+    top: 60%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -100px;
+  }

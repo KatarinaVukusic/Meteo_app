@@ -1,8 +1,9 @@
 import React from 'react';
-import "./SearchBar.css";
+import "./Settings.css";
 import {
   Link
 } from "react-router-dom";
+import HomeIcon from '@mui/icons-material/Home';
 
 const Settings = () => {
  
@@ -17,8 +18,7 @@ const deleteFav = () =>{
  return(
    <div>
    <h2 style={{fontSize:"300%"}}><span style={{color:"#71cccc", fontWeight: "bold"}}>Settings</span> </h2>
-   <Link to="/" className='set'>Return</Link>
-   <div className='column'>
+   <Link to="/" className='set'><HomeIcon style={{fontSize: "50px"}} /></Link>
     <div className='temperature'> 
           <label>Temperature Unit</label>
       <div className='row'>
@@ -62,12 +62,9 @@ const deleteFav = () =>{
       </select>
       </div>
       </div>
-      <div className='pastdays'>
+      
  </div>
- </div>
- </div>
-
-
+ 
  )
  }
 

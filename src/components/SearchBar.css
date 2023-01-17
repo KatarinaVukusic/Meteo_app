@@ -29,62 +29,6 @@ label{
   text-align: center;
 }
 
-.temperature {
-  position: fixed;
-  top: 20%;
-  left: 50%;
-  margin-top: -50px;
-  margin-left: -100px;
-}
-input[type="radio"] {
-  width: 20%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-  justify-content: space-between;
-
-}
-.wind {
-  position: fixed;
-  top: 35%;
-  left: 50%;
-  margin-top: -50px;
-  margin-left: -100px;
-}
-.percipitation {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  margin-top: -50px;
-  margin-left: -100px;
-}
-
-select{
-  width: 100%;
-}
-.pastdays {
-  position: fixed;
-  top: 70%;
-  left: 50%;
-  margin-top: -50px;
-  margin-left: -100px;
-}
-.timezone {
-  position: fixed;
-  top: 60%;
-  left: 50%;
-  margin-top: -50px;
-  margin-left: -100px;
-}
-.column1 {
-  float: left;
-  background-color: #71cccc;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 25%;
-  height: 100%;
-}
 .butset{
   position: absolute;
   bottom: 15px;
@@ -102,7 +46,6 @@ select{
 
 .set{
   line-height: 12px;
-  width: 90px;
   font-size: 25pt;
   font-family: tahoma;
   margin-top: 20px;
@@ -147,7 +90,6 @@ set:hover {
     margin-top: 1px;
     margin-left: 1050px;
     width: 300px;
-    height: 250px;
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     overflow: hidden;
@@ -166,24 +108,8 @@ set:hover {
     display: flex;
     align-items: center;
     color: black;
+    justify-content: space-between;
   }
-  .favourite{
-    font-size: 30px;
-  }
-.sortbutton{
-  display: inline-block;
-  padding: 15px 25px;
-  font-size: 24px;
-  cursor: pointer;
-  text-align: center;
-  text-decoration: none;
-  outline: none;
-  color: #289aec;
-  background-color: #ebfae9;
-  border: none;
-  border-radius: 15px;
-  box-shadow: 0 3px #999;
-}
 
   .dataItem p {
     margin-left: 10px;
